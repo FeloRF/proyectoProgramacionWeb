@@ -6,7 +6,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #de0505;
+    color: #1f1d1d;
 }
 
 form {
@@ -30,15 +30,29 @@ input, textarea {
 }
 
 button {
-    padding: 10px 20px;
-    margin-right: 10px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out;
 }
 
+
+button[type="submit"] {
+  background-color: #3e8ddc; 
+  color: rgb(0, 0, 0);
+}
+
+
 button[type="reset"] {
-    background-color: #5f7283;
+  background-color: #5f7283; 
+  color: rgb(0, 0, 0);
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+  transform: scale(1.05);
 }
