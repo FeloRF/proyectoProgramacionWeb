@@ -6,20 +6,22 @@
     <title>M2 Alta de Categoria</title>
     <link rel="stylesheet" href="../../assets/css/categorias.css">
 <body>
+
     <h1>Agregar categoria.</h1>
     <form action="../../backend/categorias.php" method="post">
 
         <label for="id">ID:</label>
-        <input type="number" id="id" name="id" required>
+        <input type="number" id="id" name="id">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required> 
+        <input type="text" id="nombre" name="nombre"> 
         <button type="submit">Guardar</button> 
         <button type="reset">Cancelar</button>
     </form>
 
     <p style="text-align: center;">Felipe Rojas</p>
    
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../../assets/js/validaciones.js"></script>
     
 </body>
 </html>
