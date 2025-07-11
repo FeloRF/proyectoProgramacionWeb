@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #f4f4f4;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label, input, textarea, select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input, textarea, select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.botones {
+  text-align: center;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+.autor {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+
+
+.mensaje-autor {
+  color: red;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+
+
+
+
+/* Cabecera */
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+}
+
+.logo {
+  height: 60px;
+  margin-right: 20px;
+}
+
+/* Contenedor de productos */
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Tarjeta de producto */
+.tarjeta-producto {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 22%;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.tarjeta-producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.tarjeta-producto h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.tarjeta-producto p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f4f4f4;
+  margin-top: 20px;
+}
+
+
+.boton {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  margin: 5px;
+}
+
+.boton:hover {
+  background-color: #ccc;
+}
